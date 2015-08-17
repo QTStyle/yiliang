@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+* { margin: 0px; padding: 0px; border: 0px; }
+body { background-color: #faf5eb; width: 1425px; }
+header { background: url(../image/header.jpg)no-repeat; background-size: 100% 160px; height: 160px; }
+nav { height: 36px; }
+#logo { height: 185px; width: 200px; position: absolute; top: -13px; left: 130px; }
+#menu img { height: 36px; width: 180px; margin-right: 15px; float: left; }
+img#lastImg { margin-right: 0px; }
+#ad img, #ad { height: 300px; width: 650px; float: left; }
+#news { height: 300px; width: 309px; float: right; background-color: white; }
+#news ul { height: 100%; width: 77%; float: left; list-style-type: none; }
+.newsContens1 { color: #7DB77C; }
+.newsContens2, .newsContens3 { color: #5F5F5D; }
+.newsContens3 { font-size: 10px; }
+#news p { margin: 0px; }
+#news li { margin: 10px; text-align: right; }
+#post { float: right; width: 23%; height: 138px; }
+.sideLine { border: 1px dashed #000; height: 200px; width: 215px; text-align: center; }
+.sideLine img { width: 210px; }
+.text { font-size: 22px; color: black; font-family: "Verdana, Geneva, sans-serif"; }
+.cuttingLine { color: #CBBBAB; border-top: 1px solid #CBBBAB; margin-bottom: auto }
+footer { margin: -100px auto 0px; background: url(../image/footer.jpg)no-repeat; background-size: 100% 290px; height: 290px; text-align: center; }
+footer p { position: relative; top: 263px; }
+.one { height: 324px; width: 108px; position: fixed; right: 50%; top: 20%; margin-right: -680px; }
+#wrapper { max-width: 650px; width: 100%; margin: 0px auto; margin-top: 10px; }
+/* main_img */
+.main_img { height: 200px; width: 318px; margin-top: -10px; overflow: hidden; position: relative; }
+.main_img img { height: 200px; width: 318px; overflow-x: hidden; overflow-y: hidden; position: relative; z-index: 1; transition-delay: 0s; transition-duration: 1s; transition-property: all; transition-timing-function: ease; /* Firefox 4 */ -moz-transition-delay: 0s; -moz-transition-duration: 1s; -moz-transition-property: all; -moz-transition-timing-function: ease; /* Safari 和 Chrome */ -webkit-transition-delay: 0s; -webkit-transition-duration: 1s; -webkit-transition-property: all; -webkit-transition-timing-function: ease; /* Opera */ -o-transition-delay: 0s; -o-transition-duration: 1s; -o-transition-property: all; -o-transition-timing-function: ease; }
+.main_img:hover img { transform: scale(1.1, 1.1); -ms-transform: scale(1.05, 1.05); 	/* IE 9 */ -moz-transform: scale(1.05, 1.05); 	/* Firefox */ -webkit-transform: scale(1.05, 1.05); /* Safari 和 Chrome */ -o-transform: scale(1.05, 1.05); 	/* Opera */ }
+/*css of road*/
+#word1 { font-size: 20px; color: #615F60; margin: 10px 0px; }
+#img1 { width: 200px; height: 350px; float: left; margin-right: 10px; }
+#img2 { width: 750px; height: 350px; float: left; overflow: hidden; }
+#img3 { width: 120px; height: 113px; float: right; margin-top: 11px; }
+#word2 { font-size: 18px; font-weight: 200; width: 200px; height: 55px; float: left; margin-right: 10px; margin-top: 20px; color: #CBBBAB; text-align: left; }
+#word3 { width: 750px; height: 50px; float: left; margin-top: -10px; }
+#word4 { float: left; margin-top: 25px; }
+#word5 { font-family: Verdana, Geneva, sans-serif; font-size: 20px; width: 750px; height: 50px; float: right; margin-top: 150px; letter-spacing: 5px; }
+#word6 { float: left; margin-top: auto; margin-left: 10px; font-weight: bold; }
+#word7 { float: left; margin-top: auto; width: 200px; height: 25px; }
+#triangle { margin-top: 50px; margin-left: 5px; border-color: #F9F5EA #F9F5EA #F9F5EA #804040; border-style: solid; border-width: 10px; width: 0; height: 0; float: left; }
+#lingxing { margin-top: 6px; margin-left: 10px; border-color: #804040; border-style: solid; border-width: 6px; width: 0; height: 0; -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); float: left; }
+a:link { color: #804040; text-decoration: none; }
+a:visited { color: #804040; text-decoration: none; }
+a:hover { color: #804040; text-decoration: none; }
+a:active { color: #804040; text-decoration: none; }
+/*css of news*/
+#post0 { width: 960px; height: 200px; }
+#post1 { float: left; height: 350px; width: 200px; display: inline; }
+#post2 { float: right; height: 350px; width: 750px; margin-left: 5px; }
+#contens { margin-top: 35px; width: 750px; float: right; margin-left: 5px; }
+.left { font-size: 20px; color: #615F60; text-align: left; float: left; }
+.right { font-size: 15px; height: 100%; color: #615F60; float: right; margin: 0px; }
+.right div { position: relative; bottom: 0px; right: 0px; }
+.a { display: table-cell; vertical-align: middle; }
+.abstract { height: 150px; width: 750px; display: table; }
+.cuttingLine2 { border-top: 2px dashed #CBBBAB; margin: 0px; }
+.buttonStyle { width: 760px; height: 50px; padding: 30px; clear: both; text-align: right; }
+.buttonStyle a { margin: 50px 0px 0px 70px; height: 60px; }
+.buttonStyle a:link { color: #615F60 }
+.buttonStyle a:visited { color: #615F60 }
+.buttonStyle a:hover { color: #615F60 }
+.buttonStyle a:active { color: #615F60 }
+#newshead img { margin: 10px 0px; }
+#text { width: 740px; position: relative; left: 110px; margin: 0px; }
+#text * { margin: 0px 0px 40px 0px; }
+.message2 { float: right; }
+.message1 { float: left; }
+.articleHead { clear: both; font-size: 30px; font-weight: bold; text-align: center; }
+/*css of news1*/
+.word2 { width: 480px; height: 21px; float: left; margin-top: 30px; margin-left: 140px; font-size: 18px; font-weight: 300; }
+.word3 { width: 300px; height: 21px; float: left; margin-top: 30px; margin-left: 40px; font-size: 18px; font-weight: 300; }
+.word4 { font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; position: relative; top: 50px; left: 235px; }
+.word5 { font-size: 18px; font-weight: 300; width: 700px; height: 250px; position: relative; top: 80px; left: 135px; }
+/*css of gather,pitaya,vegetable,rice,custom,produce,transport,manage*/
+#left { width: 200px; height: 900px; float: left; }
+#right { width: 747px; height: 1200px; float: right; }
+#right0 { width: 747px; height: 1050px; float: right; }
+#right1 { width: 747px; height: 1000px; float: right; position: relative; z-index: -1; }
+#right2 { width: 747px; height: 0px; float: right; }
+#right3 { width: 747px; height: 350px; float: right; }
+#right4 { width: 747px; height: 429px; float: right; }
+#right5 { width: 747px; height: 574px; float: right; }
+#right6 { width: 747px; height: 929px; float: right; margin-top: 25px; }
+#right7 { width: 747px; height: 1204px; float: right; margin-top: 25px; }
+#right8 { width: 747px; height: 840px; float: right; margin-top: 7px; }
+#img4 { width: 747px; height: 450px; float: right; }
+#img5 {  width: 178px; height: 40px; float: right; margin-top: 15px; border: 1px dashed #000; position: relative; }
+#img6 { width: 162px; height: 81px; float: left; margin-top: 45px; margin-left: 20px; }
+#img7 { width: 264px; height: 32px; float: left; margin-top: 145px; margin-left: 20px; }
+#img8 { width: 115px; height: 80px; float: left; margin-top: 35px; }
+#img9 { width: 169px; height: 75px; float: left; margin-top: 40px; }
+#img10 { width: 137px; height: 105px; float: left; margin-top: 35px; }
+#img11 { width: 175px; height: 100px; float: right; margin-top: 30px; margin-left: -100px; position: relative; z-index: -1; }
+#img12 { width: 90px; height: 90px; float: left; margin-top: 1px; margin-left: 25px; }
+#img13 { width: 180px; height: 118px; float: left; }
+#img14 { width: 180px; height: 118px; float: left; margin-left: 9px; }
+#img15 { width: 180px; height: 118px; float: left; margin-top: 10px; }
+#img16 { width: 180px; height: 118px; float: left; margin-left: 9px; margin-top: 10px; }
+#word8 { width: 180px; height: 240px; float: right; margin-top: 20px; margin-bottom: 10px; }
+#word80 { width: 180px; height: 215px; float: right; margin-top: 20px; margin-bottom: 10px; }
+#word88 { width: 180px; height: 40px; float: right; margin-top: 220px; margin-bottom: 10px; }
+#word89 { width: 180px; height: 40px; float: right; margin-top: 220px; margin-bottom: 1px; }
+#word9 { font-size: 18px; font-weight: 300; width: 180px; height: 42px; float: left; margin-left: 20px; margin-top: 15px; margin-bottom: 10px; color: #804040; }
+#word99 { font-size: 18px; font-weight: 300; width: 180px; height: 22px; float: left; margin-left: 20px; margin-top: 15px; margin-bottom: 5px; color: #804040; }
+#word10 { font-family: Verdana, Geneva, sans-serif; font-size: 18px; width: 750px; height: 50px; float: left; margin-top: 60px; margin-left: 20px; }
+#word11 { font-family: Verdana, Geneva, sans-serif; font-size: 14px; float: left; color: #090; }
+#word12 { color: brown; }
+#word13 { font-family: Verdana, Geneva, sans-serif; font-size: 14px; float: left; margin-top: 25px; color: #090; }
+#word14 { color: brown; text-align: right; }
+#word15 { font-family: Verdana, Geneva, sans-serif; font-size: 14px; float: right; color: #090; margin-top: -45px; }
+#word16 { font-family: Verdana, Geneva, sans-serif; font-size: 14px; float: right; margin-top: 55px; magin-left: 40px; color: #090; }
+/*css of mien*/
+#img20 { float: left; margin-top: 15px; }
+#img21 { float: left; margin-top: 15px; margin-left: 50px; }
+#word20 { float: left; margin-top: 15px; }
+#word20 h3 { float: left; margin-top: 1px; margin-left: 15px; color: #0C6; }
+#word20 p { margin-left: 15px; letter-spacing: 3px; }
+#word20 a { float: right; color: #0C6; text-decoration: underline; }
+/*css of notice*/
+#contents { margin-top: -900px; width: 700px; float: right; margin-left: 5px; }
+.abstracts { height: 150px; width: 630px; display: table; }
+.cuttingLine1 { border-top: 2px dashed #CBBBAB; margin-top: -40px; margin-bottom: -30px; width: 650px; }
+#buttonStyle1 { width: 660px; height: 50px; padding: 30px; clear: both; text-align: right; margin-top: 20px; }
+#buttonStyle1 a { margin: 50px 0px 0px 70px; height: 30px; }
+/*css of agri_vegetable,notice1*/
+.agri1 { float: left; margin-left: 40px; }
+.agri2 { float: left; margin-left: 40px; color: #060; }
+.agri3 { float: left; margin-left: 40px; margin-top: 10px; font-size: 16px; letter-spacing: 4px; }
+.agri4 { float: right; margin-right: 10px; margin-top: -310px; position: relative; z-index: -1; }
+.agri5 { float: right; margin-right: 10px; margin-top: -240px; position: relative; z-index: -1; }
